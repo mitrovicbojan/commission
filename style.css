@@ -101,3 +101,19 @@ input::placeholder {
     min-width: 196px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .container .commissions {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid red;
+  }
+  body {
+    height: 300vw;
+    background: #ffffff;
+  }
+}
