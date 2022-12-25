@@ -110,10 +110,27 @@ input::placeholder {
   .container .commissions {
     width: 100%;
     padding: 15px 15px 15px 15px;
-    border: 2px solid red;
   }
   body {
     height: 300vw;
     background: #ffffff;
+  }
+  .container .supplements {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+  input::placeholder {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background: #ffffff;
+  }
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 100px auto;
   }
 }
